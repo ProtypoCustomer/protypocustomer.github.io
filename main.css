@@ -1,0 +1,42 @@
+body {
+  background-color: #023e8a;
+  width: 100svh;
+  height: auto;
+  background-image: url(./Background.png);
+}
+.Book {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Book img {
+  height: 60vh;
+}
+.dlbutton {
+  height: 2rem;
+  width: auto;
+  border: #023e8a solid;
+  border-radius: 2rem;
+  border-width: 3px;
+  color: white;
+  align-items: center;
+}
+.dlbutton a img {
+  height: 5vh;
+}
+.dlbutton a:link {
+  color: #023e8a;
+}
+.dlbutton a:hover {
+  color: #00b4d8;
+}
+.dlbutton a:visited {
+  color: #00b4d8;
+}
+.dlbutton a:active {
+  color: #00b4d8;
+}
